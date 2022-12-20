@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: monospace;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    background-color: #ffbe0b;
+    height: 5em;
+    align-items: center;
+    justify-content: space-between;
+}
+figure {
+    height: 100%;
+}
+figure img{
+    height: 100%;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    padding: 1em;
+    color: #4cc9f0;
+}
+.li-1{
+    display: inline-block;
+    font-size: 20px;
+    background-color: #fffeff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.li-1 a:hover{
+    color: #4a4a4a;
+}
+
+ul{
+    padding-right: 3em;
+}
+
+
+
+/*MAIN*/
+.contM{
+    height: 30vh;
+    width: 100vw;
+    background-image: url(../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contM h1{
+    color: #4cc9f0;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+
+/*FOOTER*/
